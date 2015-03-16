@@ -2,9 +2,9 @@ dependencies:
   cache_directories:
     - "bower_components"
     - "node_modules"
-  override:
-    - ./npm_install.sh
-    - bower install
+  #override:
+  #  - ./npm_install.sh
+  #  - bower install
 test:
   override:
     - ./node_modules/.bin/gulp test
