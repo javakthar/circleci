@@ -1,7 +1,7 @@
 dependencies:
-  cache_directories:
+  #cache_directories:
     - "bower_components"
-    - "node_modules"
+  #  - "node_modules"
   override:
   #  - ./npm_install.sh
     - bower install
