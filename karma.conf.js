@@ -29,7 +29,7 @@ module.exports = function(config) {
     },
 
     junitReporter: {
-      outputFile: 'aff-results.xml',
+      outputFile: 'test-results.xml',
       suite: ''
     },
 
