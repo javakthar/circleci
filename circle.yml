@@ -5,5 +5,6 @@ dependencies:
 test:
   override:
     - ./node_modules/.bin/gulp test
-
-
+general:
+  artifacts:
+    "test-results.xml"
