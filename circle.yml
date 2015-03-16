@@ -1,5 +1,5 @@
 dependencies:
-  #cache_directories:
+  cache_directories:
     - "bower_components"
   #  - "node_modules"
   override:
