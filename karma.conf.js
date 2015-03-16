@@ -16,13 +16,21 @@ module.exports = function(config) {
     plugins : [
         'karma-phantomjs-launcher',
         'karma-jasmine',
-        'karma-coverage'
+        'karma-coverage',
+        'karma-junit-reporter'
+
     ],
 
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage','junit'],
 
     preprocessors: {
       'src/**/!(*spec.js)': ['coverage']
+
+    },
+
+    junitReporter: {
+      outputFile: 'aff-results.xml',
+      suite: ''
     },
 
     coverageReporter: {
