@@ -7,4 +7,4 @@ test:
     - ./node_modules/.bin/gulp test
 general:
   artifacts:
-    "test-results.xml"
+    - "test-results.xml"
