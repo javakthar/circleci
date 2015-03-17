@@ -5,6 +5,4 @@ dependencies:
 test:
   override:
     - ./node_modules/.bin/gulp test
-general:
-  artifacts:
-    - "test-results.xml"
+    - cp -r test-results.xml $CIRCLE_TEST_REPORTS/circleci/
