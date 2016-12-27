@@ -8,7 +8,7 @@ dependencies:
   override:
     - npm install
     - npm install bower
-    - bower install
+   
 test:
   override:
     - ./node_modules/.bin/gulp test
